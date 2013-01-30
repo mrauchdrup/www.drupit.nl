@@ -22,3 +22,8 @@
 	float:right;
 	width:200px;
 }
+
+label {
+  display: inline-block;
+  font-weight: normal;
+}
