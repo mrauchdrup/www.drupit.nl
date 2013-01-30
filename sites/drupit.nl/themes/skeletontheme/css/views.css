@@ -23,6 +23,8 @@
 	width:200px;
 }
 
+.form-textarea-wrapper textarea	{ box-sizing:inherit !important;	}
+
 label {
   display: inline-block;
   font-weight: normal;
