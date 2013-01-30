@@ -33,7 +33,7 @@
     .container .one.column                      { width: 40px;  }
     .container .two.columns                     { width: 100px; }
     .container .three.columns                   { width: 160px; }
-    .container .four.columns                    { width: 234px; }
+    .container .four.columns                    { width: 220px; }
     .container .five.columns                    { width: 280px; }
     .container .six.columns                     { width: 340px; }
     .container .seven.columns                   { width: 400px; }
@@ -84,7 +84,7 @@
         .container .one.column                      { width: 28px; }
         .container .two.columns                     { width: 76px; }
         .container .three.columns                   { width: 124px; }
-        .container .four.columns                    { width: 186px; }
+        .container .four.columns                    { width: 172px; }
         .container .five.columns                    { width: 220px; }
         .container .six.columns                     { width: 268px; }
         .container .seven.columns                   { width: 316px; }
@@ -125,8 +125,7 @@
     
     /* Note: Design for a width of 320px */
     
-    @media only screen and (max-width: 767px) {	
-		
+    @media only screen and (max-width: 767px) {
         .container { width: 300px; }
         .columns, .column { margin: 0; }
         

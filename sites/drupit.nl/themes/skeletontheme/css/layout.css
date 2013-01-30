@@ -13,7 +13,7 @@
 .full-width {width:960px; height:auto; overflow:hidden}
 
 .one_half { width: 48%; }
-.one-third { width: 33.33% !important; }
+.one_third { width: 30.66%; }
 .two_thirds { width: 65.33%; }
 .one_fourth { width: 22%; }
 .three_fourths { width: 74%; }
@@ -53,7 +53,7 @@
 	
 	#navigation ul li a { font-size: .9em;padding: 10px 15px; }
 	
-	#navigation ul { float:right; }
+	#navigation ul { min-width: 700px; }
 	
 	.resize { display: none; }
 	
@@ -66,11 +66,7 @@
 	
 	#header #site-slogan { font-size: 1.25em; }
 	
-	#navigation { 
-		margin: 10px 0px;
-		position:fixed; 
-		z-index:8000;
-	}
+	#navigation { margin: 10px 0px; }
 	
 	#navigation ul,
 	#navigation ul li,
@@ -88,9 +84,8 @@
 	#navigation ul li.active a,
 	#navigation ul li a:hover,
 	#navigation ul li:hover a {
-	float:left;
 	border: none;
-	padding: 2px 5px;
+	padding: 2px 0;
 	line-height: 150%;
 	background: transparent;
 	background-image: none;
@@ -115,20 +110,7 @@
 	}
 	
 	/* Mobile Landscape/Browser */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {
-			body { 
-			//background:url(../images/background2.jpg) repeat !important;
-			font-size:14px; 
-			font-weight:normal; 
-			font-style:normal; 
-			line-height: 1.5; 
-			word-wrap: break-word; 
-			margin: 0; 
-			padding: 0; 
-			border: 0; 
-			outline: 0;
-		}	
-	}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
 	
 	/* Anything smaller than standard 960 */
 	@media only screen and (max-width: 959px) {}
@@ -137,25 +119,10 @@
 	@media only screen and (min-width: 768px) and (max-width: 991px) and (max-device-width: 1000px) {}
 	
 	/* Mobile Only */
-	@media only screen and (max-width: 767px) and (max-device-width: 1000px) {
-
-	}
+	@media only screen and (max-width: 767px) and (max-device-width: 1000px) {}
 	
 	/* Mobile Landscape Only */
-	@media only screen and (min-width: 480px) and (max-width: 767px) and (max-device-width: 1000px) {
-			body { 
-			//background:url(../images/background2.jpg) 0 repeat !important;
-			font-size:14px; 
-			font-weight:normal; 
-			font-style:normal; 
-			line-height: 1.5; 
-			word-wrap: break-word; 
-			margin: 0; 
-			padding: 0; 
-			border: 0; 
-			outline: 0;
-		}	
-	}
+	@media only screen and (min-width: 480px) and (max-width: 767px) and (max-device-width: 1000px) {}
 	
 
 /* #Font-Face

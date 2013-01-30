@@ -7,18 +7,12 @@ core = 7.x
 stylesheets[all][] = css/skeleton.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/layout.css
-stylesheets[all][] = css/views.css
 stylesheets[all][] = color/colors.css
 
 
 regions[header] = Header
 
 regions[highlighted] = Highlighted
-
-regions[frontpage1] = Frontpage 1
-regions[frontpage2] = Frontpage 2
-regions[frontpage3] = Frontpage 3
-regions[frontpage4] = Frontpage 4
 
 regions[content] = Content
 regions[sidebar_first] = Sidebar first
