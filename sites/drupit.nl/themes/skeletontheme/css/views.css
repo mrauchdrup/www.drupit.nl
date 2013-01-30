@@ -1,9 +1,17 @@
+/* UPS block */
 #frontpage_3	{
 	background:#2daae2;
 	padding-top:30px;
 }
 
-#block-views-usp-block .one-third.column	{
+#block-views-usp-block .one-third.column,
+#block-views-usp-block .one-third.column h2	{
 	color:#fff;
 	text-align:center;
+}
+
+/* Contact form */
+#frontpage_4	{
+	background:#aac8d4;
+	padding-top:30px;
 }
