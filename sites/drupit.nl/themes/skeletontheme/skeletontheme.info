@@ -4,6 +4,7 @@ description = Skeleton is a powerful, clean, responsive theme ported to Drupal b
 version = VERSION
 core = 7.x
 
+stylesheets[all][] = css/views.css
 stylesheets[all][] = css/skeleton.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/layout.css
