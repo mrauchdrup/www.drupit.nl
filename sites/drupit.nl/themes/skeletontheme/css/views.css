@@ -20,7 +20,7 @@
 #block-views-contactformulier-block textarea.form-textarea, 
 #block-views-contactformulier-block select.form-select	{
 	float:right;
-	width:200px;
+	width:300px;
 }
 
 .form-textarea-wrapper textarea	{ box-sizing:inherit !important;	}
