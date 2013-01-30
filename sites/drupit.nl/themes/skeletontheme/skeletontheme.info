@@ -17,6 +17,11 @@ regions[highlighted] = Highlighted
 regions[content] = Content
 regions[sidebar_first] = Sidebar first
 
+regions[frontpage1] = First fontpage
+regions[frontpage2] = Second frontpage
+regions[frontpage3] = Third frontpage
+regions[frontpage4] = Fourth frontpage
+
 regions[featured_left] = Featured left
 regions[featured_right] = Featured right
 
