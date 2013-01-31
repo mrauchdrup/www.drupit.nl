@@ -107,7 +107,7 @@
                 </div>
                 <div id="frontpage_3">
                 	<div class="container">
-                    <div class="druplogo"><img src="../../images/druplogo.jpg"></div>
+                    <div class="druplogo"><img src="http://drupit.nl/sites/drupit.nl/themes/skeletontheme/images/druplogo.jpg"></div>
                     <a id="frontpage3"></a>
                     <?php print render($page['frontpage3']); ?>
                     </div>
