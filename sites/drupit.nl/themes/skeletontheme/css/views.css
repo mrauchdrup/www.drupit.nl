@@ -1,20 +1,27 @@
 /* Showcase block */
 .showcase	{
-	background:url(../images/show_bg.png) no-repeat;
+	//background:url(../images/show_bg.png) no-repeat;
 	width:400px;
 	height:300px;
 }
 
 .imac	{
-	position:absolute;
+	left: 39px;
+	position: absolute;
+	top: 43px;
+	z-index:-1;
 }
 
 .ipad	{
-	position:absolute;
+	left: 226px;
+	position: absolute;
+	top: 159px;
 }
 
 .iphone	{
-	position:absolute;
+	left: 40px;
+	position: absolute;
+	top: 189px;
 }
 
 /* UPS block */
