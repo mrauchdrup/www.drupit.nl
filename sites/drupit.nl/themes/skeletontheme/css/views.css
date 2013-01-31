@@ -1,9 +1,21 @@
+/* Showcase block */
 .showcase	{
 	background:url(../images/show_bg.png) no-repeat;
 	width:400px;
 	height:300px;
 }
 
+.imac	{
+	position:absolute;
+}
+
+.ipad	{
+	position:absolute;
+}
+
+.iphone	{
+	position:absolute;
+}
 
 /* UPS block */
 #frontpage_2	{
