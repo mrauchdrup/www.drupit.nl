@@ -107,6 +107,7 @@
                 </div>
                 <div id="frontpage_3">
                 	<div class="container">
+                    <div class="druplogo"></div>
                     <a id="frontpage3"></a>
                     <?php print render($page['frontpage3']); ?>
                     </div>

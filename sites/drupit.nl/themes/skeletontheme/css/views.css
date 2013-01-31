@@ -36,6 +36,13 @@
 	text-align:center;
 }
 
+.druplogo	{
+	background: url(../images/druplogo.jpg) no-repeat transparent;
+	height: 100%;
+	width: 100%;
+}
+
+
 /* Contact form */
 .emailbutton	{
 	background: url(../images/email.png) no-repeat transparent;
