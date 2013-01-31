@@ -97,57 +97,24 @@ text-shadow: 1px 1px 0px #fff; }
 
 /* Navigation */
 
-#navigation { margin-bottom: 20px; clear: both; }
+#navigation { margin: 56px 0px 0px 20px; }
 
 #navigation ul,
 #navigation ul li { float: left; margin: 0; padding: 0; }
 
-#navigation ul { width: 100%; position: relative;
-border-color: #EAEAEA #F5F5F5 #F5F5F5 #F5F5F5;
--moz-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px;
-border-style: solid; border-width: 1px;
-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); 
-/* IE10 */ 
-background-image: -ms-linear-gradient(top, #fcfcfc 0%, #ececec 100%);
-/* Mozilla Firefox */ 
-background-image: -moz-linear-gradient(top, #fcfcfc 0%, #ececec 100%);
-/* Opera */ 
-background-image: -o-linear-gradient(top, #fcfcfc 0%, #ececec 100%);
-/* Webkit (Safari/Chrome 10) */ 
-background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fcfcfc), color-stop(1, #ececec));
-/* Webkit (Chrome 11+) */ 
-background-image: -webkit-linear-gradient(top, #fcfcfc 0%, #ececec 100%);
-/* Proposed W3C Markup */ 
-background-image: linear-gradient(top, #fcfcfc 0%, #ececec 100%); 
-/* IE6-9 */ 
-filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#ececec'); }
+#navigation ul { width: 100%; position: relative; }
 	
 #navigation ul li { position: relative; list-style:none; background-image: none; border-right: 1px solid #e3e3e3; }
 
-#navigation ul li a { padding: 15px 25px; text-decoration: none; background-image: none;
-display: block; font-weight: bold; text-shadow: 1px 1px 0px #fff; outline:none; }
+#navigation ul li a { padding: 15px 15px; text-decoration: none; background-image: none;
+display: block; outline:none; }
 
 #navigation ul li:hover a,
-#navigation ul li a:hover { position: relative; color: #545454;
-background: #f1f1f1;
-/* IE10 */ 
-background-image: -ms-linear-gradient(top, #ffffff 0%, #f1f1f1 100%);
-/* Mozilla Firefox */ 
-background-image: -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 100%);
-/* Opera */ 
-background-image: -o-linear-gradient(top, #ffffff 0%, #f1f1f1 100%);
-/* Webkit (Safari/Chrome 10) */ 
-background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #f1f1f1));
-/* Webkit (Chrome 11+) */ 
-background-image: -webkit-linear-gradient(top, #ffffff 0%, #f1f1f1 100%);
-/* Proposed W3C Markup */ 
-background-image: linear-gradient(top, #ffffff 0%, #f1f1f1 100%); 
-/* IE6-9 */ 
-filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1f1f1'); }
+#navigation ul li a:hover { position: relative; color: #545454; }
 
 #navigation ul li:hover li a { color: #595959; font-weight: normal; }
 
-#navigation ul li.active a, #navigation ul li a.active { color: #333; background: #fff; text-shadow: 1px 1px 0px #fff; border-bottom: 1px solid #fff; }
+#navigation ul li.active a, #navigation ul li a.active { color: #333; background: #fff;  }
 
 /* Main */
 
