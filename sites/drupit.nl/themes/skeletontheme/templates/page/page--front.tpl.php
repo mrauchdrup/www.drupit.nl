@@ -113,7 +113,7 @@
                 </div>
                 <div id="frontpage_4">
                     <div class="container">
-                    <div class="email">email</div>
+                    <div class="emailbutton"></div>
                     <a id="frontpage4"></a>
                     <?php print render($page['frontpage4']); ?>
                     </div>

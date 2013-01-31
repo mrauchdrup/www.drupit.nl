@@ -37,11 +37,13 @@
 }
 
 /* Contact form */
-.email	{
-	background:url(../images/email.png) no-repeat;
-	height:63px;
-	width:47px;
-	text-indent:-99999;
+.emailbutton	{
+	background: url(../images/email.png) no-repeat transparent;
+	height: 63px;
+	left: 50%;
+	margin-top: -66px;
+	position: absolute;
+	width: 47px;
 }
 
 #frontpage_4	{
