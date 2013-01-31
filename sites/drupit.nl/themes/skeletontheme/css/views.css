@@ -1,3 +1,10 @@
+.showcase	{
+	background:url(../images/show_bg.png) no-repeat;
+	width:400px;
+	height:300px;
+}
+
+
 /* UPS block */
 #frontpage_2	{
 	background:#2daae2;
