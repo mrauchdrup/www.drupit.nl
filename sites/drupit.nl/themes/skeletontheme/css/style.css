@@ -199,10 +199,9 @@ ul.menu { padding: 0; margin: 0; list-style: none; }
 
 ul.menu li { list-style:none; }
 
-ul.menu li a { display: block; border-bottom: 1px solid #eee; padding: 8px 0px 8px 24px; line-height: 120%; font-weight: bold;
-background: url(../images/light/arrow_bullet.png) no-repeat 10px; text-decoration: none; }
+ul.menu li a { display: block; padding: 8px 0px 8px 24px; line-height: 120%; font-weight: normal; text-decoration: none; }
 
-ul.menu li a:hover { color:#333333; background: url(../images/dark/arrow_bullet.png) no-repeat 10px; }
+ul.menu li a:hover { color:#333333; }
 
 ul.menu ul { margin:0 0 0 1.3em; }
 
