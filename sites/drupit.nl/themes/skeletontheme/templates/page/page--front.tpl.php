@@ -111,6 +111,7 @@
                     <?php print render($page['frontpage3']); ?>
                     </div>
                 </div>
+                <span class="email"></span>
                 <div id="frontpage_4">
                     <div class="container">
                     <a id="frontpage4"></a>
