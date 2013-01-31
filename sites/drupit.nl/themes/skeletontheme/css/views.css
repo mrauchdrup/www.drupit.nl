@@ -37,10 +37,11 @@
 }
 
 /* Contact form */
-span.email	{
+.email	{
 	background:url(../images/email.png) no-repeat;
 	height:63px;
 	width:47px;
+	text-indent:-99999;
 }
 
 #frontpage_4	{
