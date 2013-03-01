@@ -21,7 +21,7 @@
 /* #Base 960 Grid 
 ================================================== */
 
-    .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .container, .pagecontent                    { position: relative; width: 960px; margin: 0 auto; padding: 0; }
     .column, .columns                           { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
     .row                                        { margin-bottom: 20px; }
     
@@ -75,7 +75,7 @@
     /* Note: Design for a width of 768px */
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-        .container                                  { width: 768px; }
+        .container, .pagecontent                    { width: 768px; }
         .container .column,
         .container .columns                         { margin-left: 10px; margin-right: 10px;  }
         .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
@@ -117,25 +117,7 @@
         .container .offset-by-thirteen              { padding-left: 624px; }
         .container .offset-by-fourteen              { padding-left: 672px; }
         .container .offset-by-fifteen               { padding-left: 720px; }
-    
-	
-		.imac { 
-				left: 33px;
-				position: absolute;
-				top: 37px;
-				width: 223px;
-				z-index: -1;	}
-		.ipad{
-				left: 195px;
-				position: absolute;
-				top: 136px;
-				width: 126px;	}
-		.iphone { 
-				left: 34px;
-				position: absolute;
-				top: 163px;
-				width: 38px;	}
-	}
+    }
     
     
 /*  #Mobile (Portrait) 
@@ -144,7 +126,11 @@
     /* Note: Design for a width of 320px */
     
     @media only screen and (max-width: 767px) {
-        .container { width: 300px; }
+		body	{ text-align:center;	}
+		
+		#frontpage_1	{ display:none;	}
+		
+        .container, .pagecontent { width: 300px; }
         .columns, .column { margin: 0; }
         
         .container .one.column,
@@ -182,25 +168,7 @@
         .container .offset-by-thirteen,             
         .container .offset-by-fourteen,             
         .container .offset-by-fifteen { padding-left: 0; }          
-        
-		
-		.imac { 
-				left: 27px;
-				position: absolute;
-				top: 30px;
-				width: 182px;
-				z-index: -1;	}
-		.ipad{
-				left: 159px;
-				position: absolute;
-				top: 111px;
-				width: 102px;	}
-		.iphone { 
-				left: 28px;
-				position: absolute;
-				top: 131px;
-				width: 31px;	}		
-		        
+                
     }    
     
     
@@ -210,7 +178,8 @@
     /* Note: Design for a width of 480px */
     
     @media only screen and (min-width: 480px) and (max-width: 767px) {
-        .container { width: 420px; }
+		body	{ text-align:center;	}
+        .container, .pagecontent { width: 420px; }
         .columns, .column { margin: 0; }
         
         .container .one.column,
@@ -231,25 +200,7 @@
         .container .sixteen.columns,
         .container .one-third.column, 
         .container .two-thirds.column { width: 420px; }
-    
-		.imac { 
-				left: 37px;
-				position: absolute;
-				top: 35px;
-				width: 255px;
-				z-index: -1;	}
-		.ipad{
-				left: 223px;
-				position: absolute;
-				top: 156px;
-				width: 144px;	}
-		.iphone { 
-				left: 39px;
-				position: absolute;
-				top: 185px;
-				width: 43px;	}	
-	
-	}
+    }
      
     
 /* #Clearing

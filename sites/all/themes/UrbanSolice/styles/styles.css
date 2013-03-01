@@ -111,7 +111,7 @@ a:hover {
 }
 #header {
   background: url(../images/header-bg.gif) repeat-x;
-  height: 130px;
+  height: 172px;
   width: 100%;
 }
 .header {
@@ -173,15 +173,15 @@ a:hover {
   background-position: left -45px;
 }
 #navigation a {
-  color: #FFF;
+  color: #0D0D0D !important;
   display: block;
   font-size: 16px;
   padding: 10px 25px;
   text-decoration: none;
 }
 #navigation a:hover,
-#navigation a:visited {
-  color: #FFF;
+#navigation a.active {
+  color: #FFF !important;
   text-decoration: none;
 }
 

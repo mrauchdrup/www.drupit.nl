@@ -1,0 +1,19 @@
+body { color:#666666; }
+
+a:link, a:visited,
+#navigation ul li a, #navigation ul.sf-menu li a { color:#0071bc; }
+
+a:hover, a:active, a:focus { color:#2daae2; }
+
+h1, h2, h3, h4, h5, h6 { color:#555555; }
+
+#header #site-name a { color:#262626; }
+
+#header #site-name a:hover { color: #3253ad; }
+
+#header #site-slogan { color: #7d7d7d; }
+
+body { border-color:#2daae2; }
+
+#wrap { border-color:#0072bc; }
+

@@ -176,7 +176,6 @@
       <?php endif; ?>
       <div class="container section footer">
         <?php print render($page['footer']); ?>
-        <div id="levelten"><?php print l('Drupal 7 Theme', 'http://www.sparkplugthemes.com/'); ?> by Sparkplug Themes</div>
       </div><!-- /.section -->
     </div> <!-- /#footer -->
     

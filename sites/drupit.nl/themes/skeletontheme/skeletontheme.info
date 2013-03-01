@@ -10,6 +10,7 @@ stylesheets[all][] = css/style.css
 stylesheets[all][] = css/layout.css
 stylesheets[all][] = color/colors.css
 
+scripts[] = js/custom.js
 
 regions[header] = Header
 
@@ -29,6 +30,7 @@ regions[featured_right] = Featured right
 regions[footer_first] = Footer first
 regions[footer_second] = Footer second
 regions[footer_third] = Footer third
+regions[footer_fourth] = Footer fourth
 regions[footer] = Footer
 
 regions[help] = Help

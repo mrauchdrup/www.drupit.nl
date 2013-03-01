@@ -1,0 +1,154 @@
+<div id="wrap">
+    <div id="headerwrap">    
+      	<div class="container">  
+        	<!-- #header -->
+        	<div id="header" class="six columns clearfix">
+            	<div class="inner">
+    
+                	<?php if ($logo): ?>
+                  	<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+                    	<img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+                  	</a>
+                	<?php endif; ?>
+                
+                	<?php if ($site_name || $site_slogan): ?>
+                	<div id="name-and-slogan"<?php if ($hide_site_name && $hide_site_slogan) { print ' class="element-invisible"'; } ?>>
+                
+						<?php if ($site_name): ?>
+                        <div id="site-name"<?php if ($hide_site_name) { print ' class="element-invisible"'; } ?>>
+                        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a>
+                        </div>
+                        <?php endif; ?>
+                        
+                        <?php if ($site_slogan): ?>
+                        <div id="site-slogan"<?php if ($hide_site_slogan) { print ' class="element-invisible"'; } ?>>
+                        <?php print $site_slogan; ?>
+                        </div>
+                        <?php endif; ?>
+                
+                	</div>
+					<?php endif; ?>
+                </div>
+        	</div><!-- /#header -->
+        
+        	<!-- #navigation -->
+        	<div id="navigation" class="ten columns clearfix">
+        
+                <div class="menu-header">
+                <?php if ($page['header']) : ?>
+                    <?php print drupal_render($page['header']); ?>
+                    <?php else : ?>
+                    <?php 
+                    if (module_exists('i18n_menu')) {
+                    $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
+                    } else { 
+                    $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu')); 
+                    } ?>
+                    <div class="content">
+                    <?php print drupal_render($main_menu_tree); ?>
+                    </div>
+                <?php endif; ?>
+                </div>
+            
+        	</div><!-- /#navigation -->
+      	</div><!-- /#container -->  
+    </div><!-- /#headerwrap -->
+    
+    <div class="outerpagewrap">
+        <div class="pagetitle">
+            <div class="pagecontent">
+                <?php print render($title_prefix); ?>
+                
+                <?php if ($title): ?>
+                <h1 class="title" id="page-title">
+                  <?php print $title; ?>
+                </h1>
+                <?php endif; ?>
+                
+                <?php print render($title_suffix); ?>
+                
+                <?php if ($breadcrumb): ?>
+                    <div id="breadcrumb"><?php print $breadcrumb; ?></div>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <?php if ($page['sidebar_first']) { ?>
+        <div id="content" class="eleven columns">
+        <?php } else { ?>
+        <div id="content" class="sixteen columns clearfix">
+        <?php } ?>
+        
+            <?php if ($messages): ?>
+            <div id="messages"><?php print $messages; ?></div><!-- /#messages -->
+            <?php endif; ?>
+            
+            <div id="main">
+            
+                <?php if ($page['highlighted']): ?>
+                <div id="highlighted" class="clearfix"><?php print render($page['highlighted']); ?></div>
+				<?php endif; ?>
+
+                <?php if ($tabs): ?>
+                <div class="tabs">
+                  <?php print render($tabs); ?>
+                </div>
+                <?php endif; ?>
+                
+                <?php print render($page['help']); ?>
+                
+                <?php if ($action_links): ?>
+                <ul class="action-links">
+                  <?php print render($action_links); ?>
+                </ul>
+                <?php endif; ?>
+                
+                <?php print render($page['content']); ?>
+                <?php print $feed_icons; ?>
+                
+            </div><!-- /#main -->
+        </div><!-- /#content -->
+      
+        
+		<?php if ($page['sidebar_first']): ?>
+        <!-- #sidebar-first -->
+        <div id="sidebar" class="five columns">
+            <?php print render($page['sidebar_first']); ?>
+        </div><!-- /#sidebar-first -->
+        <?php endif; ?>
+        
+        <div class="clear"></div>
+        
+    </div>   
+    
+    <div class="clear"></div>
+    
+    <div id="footer" class="clearfix">
+    	<div class="container">        
+            <div class="four columns">
+            <?php if ($page['footer_first']): ?><?php print render($page['footer_first']); ?><?php endif; ?>
+            </div>
+            
+            <div class="four columns">
+            <?php if ($page['footer_second']): ?><?php print render($page['footer_second']); ?><?php endif; ?>
+            </div>
+            
+            <div class="four columns last">
+            <?php if ($page['footer_third']): ?><?php print render($page['footer_third']); ?><?php endif; ?>
+            </div>
+            
+            <div class="four columns last">
+            <?php if ($page['footer_fourth']): ?><?php print render($page['footer_fourth']); ?><?php endif; ?>
+            </div>
+    
+            <div class="clear"></div>
+            
+            <?php if ($page['footer']): print render($page['footer']); endif; ?>
+            
+            <div class="clear"></div>
+        </div>
+    </div>
+<div id="credits"><div class="container">2012 <?php print $site_name; ?></div></div>
+</div> <!-- /#wrap -->
